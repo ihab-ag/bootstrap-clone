@@ -10,6 +10,9 @@ img{
 .white{
     color:white;
 }
+.container{
+    padding:0 5%;
+}
 /* header */
 .header{
     background-color: #2c3e50;

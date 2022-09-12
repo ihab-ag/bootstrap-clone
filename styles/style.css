@@ -218,7 +218,7 @@ hr{
         justify-content: space-between;
         align-items: center;
     }
-    .nav-bar__items{
+    .desktop-nav{
         display:flex;
         flex-direction: row;
         gap:15px;

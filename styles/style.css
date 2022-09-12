@@ -190,7 +190,7 @@ hr{
     align-items: center;
 }
 .icon img{
-    width:50%;
+    height:50%;
 }
 /* media queries */
 @media screen and (min-width:770px) {

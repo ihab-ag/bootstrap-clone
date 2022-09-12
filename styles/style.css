@@ -24,3 +24,8 @@ img{
 .nav-bar ul li{
     list-style: none;
 }
+.nav-bar__head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

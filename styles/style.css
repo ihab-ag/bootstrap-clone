@@ -21,3 +21,6 @@ img{
     display:flex;
     flex-direction: column;
 }
+.nav-bar ul li{
+    list-style: none;
+}

@@ -8,6 +8,9 @@ img{
     height:100%;
 }
 /* utilities */
+.none{
+    display:none;
+}
 .white{
     color:white;
 }
@@ -85,7 +88,7 @@ hr{
     align-items: center;
 }
 .nav-bar__items{
-    display:none;
+    display:flex;
     font-size: 16px;
     font-weight: 500;
 }

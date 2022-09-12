@@ -1,12 +1,20 @@
 window.onload=()=>{
     // elements
     const btnMenu = document.getElementById('menu-btn');
-    const menu = document.getElementById('menu');
+    const menu = document.getElementsByClassName('nav-bar__items');
+
+    btnMenu.onclick=()=>{
+        toggleMenu();
+    }
+
+
 
     // functions
     // toggle displaymenu
     function toggleMenu(){
-        let display = menu.style.display;
-        display=="none"?display="flex":display="none";
+        
+        console.log(menu[0].style.display);
+        
+        menu[0].style.display= menu[0].style.display==="none"?"flex":"none";
     }
 }

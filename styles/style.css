@@ -14,6 +14,14 @@ img{
 .container{
     padding:0 5%;
 }
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
 h1{
     font-size: 44px;
 }
@@ -97,14 +105,6 @@ hr{
 }
 .portfolio hr{
     border-color: #2c3e50;
-}
-.flex-img{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap:20px;
 }
 .img-card{
     width:100%;

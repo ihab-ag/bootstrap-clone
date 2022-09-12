@@ -69,3 +69,8 @@ p{
 .avatar{
     height:250px;
 }
+.hero hr{
+    width:100%;
+    border: none;
+    border-bottom: 2px white solid;
+}

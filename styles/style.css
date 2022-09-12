@@ -164,6 +164,9 @@ hr{
 .input:focus{
     outline: none;
 }
+.textarea {
+    height:150px;
+}
 .contact .btn{
     padding:15px 20px;
     margin-right: auto;

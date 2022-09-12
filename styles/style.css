@@ -58,6 +58,9 @@ p{
     font-weight: 500;
 }
 /*  Hero section*/
+.hero{
+    background: #1abc9c;
+}
 .hero .container{
     display: flex;
     flex-direction: column;

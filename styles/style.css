@@ -177,4 +177,8 @@ hr{
 .footer p{
     font-weight:400;
 }
+.icons{
+    display:flex;
+    flex-direction:row;
+}
 

@@ -95,3 +95,6 @@ hr{
 .portfolio h2{
     color: #2c3e50;
 }
+.portfolio hr{
+    border-color: #2c3e50;
+}

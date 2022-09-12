@@ -30,7 +30,7 @@ window.onload=()=>{
     }
     // validation 
     function validate(){
-        
+        console.log(name.value+email.value);
         if(name.value.length<5){
             return "Full name should be >5 characters";
         }

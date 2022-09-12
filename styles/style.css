@@ -17,6 +17,9 @@ img{
 h3{
     font-size: 20px;
 }
+p{
+    font-size: 16px;
+}
 .btn{
     padding:8px 12px;
     border:none;
@@ -50,6 +53,8 @@ h3{
     justify-content: space-between;
 }
 .nav-bar__items{
+    display:none;
     font-size: 16px;
     font-weight: 500;
 }
+/*  */

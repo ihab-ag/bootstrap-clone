@@ -17,6 +17,9 @@ img{
 h1{
     font-size: 44px;
 }
+h2{
+    font-size:34px;
+}
 h3{
     font-size: 22px;
 }
@@ -81,4 +84,5 @@ hr{
 .avatar{
     height:250px;
 }
+/* porfolio */
 

@@ -7,6 +7,7 @@ window.onload=()=>{
     const number= document.getElementById('number');
     const message= document.getElementById('message');
     const submit=document.getElementById('submit');
+    const title=document.getElementById('title');
 
     btnMenu.onclick=()=>{
         toggleMenu();

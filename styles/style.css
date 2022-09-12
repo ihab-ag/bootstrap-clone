@@ -39,6 +39,9 @@ h3{
     list-style: none;
     padding:4% 0;
 }
+.nav-bar ul li:hover{
+    cursor: pointer;
+}
 .nav-bar__head{
     display: flex;
     flex-direction: row;

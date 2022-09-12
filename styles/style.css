@@ -212,6 +212,9 @@ hr{
     .header .btn{
         display:none;
     }
+    .container{
+        padding:5% 15%;
+    }
     .nav-bar{
         height:15vh;
         display:flex;
@@ -229,9 +232,7 @@ hr{
     .img-card{
         width:30%;
     }
-    .container{
-        padding:5%;
-    }
+    
     .footer .container{
         display: flex;
         flex-direction: row;

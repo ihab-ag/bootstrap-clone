@@ -142,3 +142,9 @@ hr{
     align-items: center;
     gap:30px;
 }
+.contact h2{
+    color: #2c3e50;
+}
+.contact hr{
+    border-color: #2c3e50;
+}

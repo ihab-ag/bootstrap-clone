@@ -8,12 +8,24 @@ window.onload=()=>{
     const message= document.getElementById('message');
     const submit=document.getElementById('submit');
     const title=document.getElementById('title');
-
+    var txt=document.createElement("span");
+    txt.style.background="red";
+    txt.style.color="white";
+    // variables
+    let msg="";
+    // events
     btnMenu.onclick=()=>{
         toggleMenu();
     }
     submit.onclick=()=>{
-        console.log(validate());
+        msg=validate();
+        if(msg!=""){
+            txt.innerText=msg;
+            title.appendChild(txt);
+        }
+        else{
+            title.removeChild(txt);
+        }
     }
 
 
@@ -46,5 +58,6 @@ window.onload=()=>{
         if(message.value.length<100||message.value==""){
             return "Message should be > 100 characters";
         }
+        return " ";
     }
 }

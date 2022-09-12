@@ -99,7 +99,12 @@ hr{
     border-color: #2c3e50;
 }
 .flex-img{
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
 }
 .img-card{
     width:100%;

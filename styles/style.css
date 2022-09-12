@@ -23,6 +23,7 @@ img{
 }
 .nav-bar ul li{
     list-style: none;
+    padding:4% 0;
 }
 .nav-bar__head{
     display: flex;

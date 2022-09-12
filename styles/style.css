@@ -216,7 +216,7 @@ hr{
         padding:5% 15%;
     }
     .nav-bar{
-        height:15vh;
+        height:12vh;
         display:flex;
         flex-direction: row;
         justify-content: space-between;

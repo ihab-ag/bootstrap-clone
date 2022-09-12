@@ -226,10 +226,12 @@ hr{
     .footer .container{
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-around;
-        gap:40px;
-        text-align: center;
+        
+    }
+    .footer .container>div{
+        width:30%;
     }
     h1{
         font-size: 48px;

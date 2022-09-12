@@ -23,16 +23,16 @@ img{
     gap:20px;
 }
 h1{
-    font-size: 48px;
+    font-size: 44px;
 }
 h2{
-    font-size:38px;
+    font-size:34px;
 }
 h3{
-    font-size: 26px;
+    font-size: 22px;
 }
 p{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
 }
 hr{
@@ -216,7 +216,6 @@ hr{
         width:30%;
     }
     .container{
-        
         padding:5%;
     }
     .footer .container{
@@ -227,4 +226,15 @@ hr{
         gap:40px;
         text-align: center;
     }
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size:38px;
+    }
+    h3{
+        font-size: 26px;
+    }
+    p{
+        font-size: 26px;
 }

@@ -19,5 +19,9 @@ window.onload=()=>{
             menu.classList.remove('none');
             menu.classList.add('nav-bar__items');
         }
+        else{
+            menu.classList.remove('nav-bar__items');
+            menu.classList.add('none');
+        }
     }
 }

@@ -181,11 +181,16 @@ hr{
     justify-content: space-around;
 }
 .icon{
-    height:36px;
-    width:36px;
-    border:1px solid white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border: 1px solid white;
     border-radius: 50px;
-    padding:20px;
+    justify-content: center;
+    align-items: center;
+}
+.icon img{
+    width:50%;
 }
 /* media queries */
 @media screen and (min-width:770px) {
@@ -237,4 +242,5 @@ hr{
     }
     p{
         font-size: 26px;
+    }
 }

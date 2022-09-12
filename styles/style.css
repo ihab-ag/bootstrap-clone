@@ -49,3 +49,7 @@ h3{
     flex-direction: row;
     justify-content: space-between;
 }
+.nav-bar__items{
+    font-size: 16px;
+    font-weight: 500;
+}

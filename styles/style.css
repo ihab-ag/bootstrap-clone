@@ -86,7 +86,7 @@ hr{
 }
 /* porfolio */
 .portfolio .container{
-    padding:12% 4%;
+    padding:11%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,4 +97,7 @@ hr{
 }
 .portfolio hr{
     border-color: #2c3e50;
+}
+.img-card img{
+    width:100%;
 }

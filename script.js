@@ -45,6 +45,5 @@ window.onload=()=>{
         if(message.value.length<100||message.value==""){
             return "Message should be > 100 characters";
         }
-        return "valid";
     }
 }

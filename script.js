@@ -6,6 +6,7 @@ window.onload=()=>{
     const email= document.getElementById('email');
     const number= document.getElementById('number');
     const message= document.getElementById('message');
+    const submit=document.getElementById('submit');
 
     btnMenu.onclick=()=>{
         toggleMenu();

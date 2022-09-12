@@ -174,4 +174,7 @@ hr{
     gap:40px;
     text-align: center;
 }
+.footer p{
+    font-weight:400;
+}
 

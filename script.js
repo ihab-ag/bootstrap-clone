@@ -1,7 +1,7 @@
 window.onload=()=>{
     // elements
     const btnMenu = document.getElementById('menu-btn');
-    const menu = document.getElementsByClassName('nav-bar__items');
+    const menu = document.getElementById('menu');
 
     btnMenu.onclick=()=>{
         toggleMenu();
@@ -13,8 +13,11 @@ window.onload=()=>{
     // toggle displaymenu
     function toggleMenu(){
         
-        console.log(menu[0].style.display);
+        console.log(menu.style.display);
         
-        menu[0].style.display= menu[0].style.display==="none"?"flex":"none";
+        if(menu.classList.contains('none')){
+            menu.classList.remove('none');
+            menu.classList.add('nav-bar__items');
+        }
     }
 }

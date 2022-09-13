@@ -1,6 +1,6 @@
 <?php
 // connect to db
-include("db_connection");
+include("db_connection.php");
 // get values to insert
 $name=$_POST['fullname'];
 $email=$_POST['email'];

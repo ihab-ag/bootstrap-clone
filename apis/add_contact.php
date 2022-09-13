@@ -11,5 +11,5 @@ $query = $mysqli->prepare("INSERT INTO contact_us(fullname, email, phone, messag
 // bind values
 $query->bind_param("ssss", $name, $email, $phone, $message);
 // excute query
-$query->excute();
+$query->execute();
 ?>

@@ -10,4 +10,6 @@ $message=$_POST['message'];
 $query = $mysqli->prepare("INSERT INTO contact_us(fullname, email, phone, message) VALUE (?, ?, ?, ?)");
 // bind values
 $query->bind_param("ssss", $name, $email, $phone, $message);
+// excute query
+$query->excute();
 ?>

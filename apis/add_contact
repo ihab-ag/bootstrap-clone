@@ -1,4 +1,9 @@
 <?php
 // connect to db
 include("db_connection");
+// get values to insert
+$name=$_POST['fullname'];
+$email=$_POST['email'];
+$phone=$_POST['phone'];
+$message=$_POST['message'];
 ?>

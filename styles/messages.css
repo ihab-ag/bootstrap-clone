@@ -10,3 +10,7 @@
     position: fixed;
     width:100%;
 }
+.header h3{
+    color:white;
+    font-size: 24px;
+}

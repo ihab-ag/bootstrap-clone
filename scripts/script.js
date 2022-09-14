@@ -63,14 +63,15 @@ window.onload=()=>{
     }
     // post to db
     function uploadContact(){
-        fetch('apis.add_contact.php', {
-            Method: 'POST',
-            Body: {
-                    "fullname": name.value,
-                    "email": email.value,
-                    "phone": number.value,
-                    "message": message.value
-                }
-          })
+        let data=new FormData();
+        data.append("fullname",name.value);
+        data.append("email",email.value);
+        data.append("phone",number.value);
+        data.append("message",message.value);
+
+        fetch('apis/add_contact.php', {
+        method: 'POST',
+        body: data,
+        })
     }
 }

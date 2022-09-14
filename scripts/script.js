@@ -9,7 +9,7 @@ window.onload=()=>{
     const submit=document.getElementById('submit');
     const title=document.getElementById('title');
     var txt=document.createElement("span");
-    txt.style.background="red";
+    
     txt.style.color="white";
     // variables
     let msg="";
@@ -18,13 +18,17 @@ window.onload=()=>{
         toggleMenu();
     }
     submit.onclick=()=>{
+       
         msg=validate();
-        if(msg!=""){
+        if(msg!=" "){
+            txt.style.background="red";
             txt.innerText=msg;
             title.appendChild(txt);
         }
         else{
-            title.removeChild(txt);
+            txt.style.background="green";
+            txt.innerText="Added sucessfully";
+            title.appendChild(txt);
         }
     }
 

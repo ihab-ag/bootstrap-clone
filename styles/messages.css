@@ -21,10 +21,11 @@
 /* messages */
 .messages{
     padding-top:12%;
-    color:#2c3e50;
+   
 }
 .messages h2{
     font-size:30px;
+    color:#2c3e50;
 }
 .message{
     padding-top: 4%;

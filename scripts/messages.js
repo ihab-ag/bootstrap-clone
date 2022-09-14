@@ -8,12 +8,16 @@ window.onload=()=>{
     async function getMessages(){
         await fetch('apis/contacts.php')
         .then((response) => response.json())
-        .then((data) => displayMsg(data));
+        .then((data) => 
+        data.forEach(arr => {
+            displayMsg(arr)
+        })
+        );
     }
     // display message
     function displayMsg(arr){
         // create elements
-        let message = arr[0].message;
+        let message = arr.message;
         let div = document.createElement('div');
         let text = document.createElement('p');
         // assign values

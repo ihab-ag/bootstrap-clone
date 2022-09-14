@@ -60,4 +60,16 @@ window.onload=()=>{
         }
         return " ";
     }
+    // post to db
+    function uploadContact(){
+        fetch('apis.add_contact.php', {
+            Method: 'POST',
+            Body: {
+                    "fullname": name.value,
+                    "email": email.value,
+                    "phone": number.value,
+                    "message": message.value
+                }
+          })
+    }
 }

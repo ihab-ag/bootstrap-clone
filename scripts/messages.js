@@ -9,6 +9,7 @@ window.onload=()=>{
         await fetch('apis/contacts.php')
         .then((response) => response.json())
         .then((data) => 
+        // display each element in data arr
         data.forEach(arr => {
             displayMsg(arr)
         })

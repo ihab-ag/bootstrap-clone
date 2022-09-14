@@ -21,7 +21,15 @@
 /* messages */
 .messages{
     padding-top:12%;
+    color:#2c3e50;
 }
 .messages h2{
     font-size:30px;
+}
+.message{
+    padding-top: 4%;
+    color: rgb(88, 88, 88);
+    border-bottom: 1px solid #2c3e50;
+    font-weight: 500;
+    font-size: 18px;
 }
